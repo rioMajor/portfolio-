@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharan N - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#about" class="logo" aria-label="Go to portfolio">Sharan</a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="profile-container">
+                <div class="profile-photo">
+                    <img src="profile-photo.jpg" alt="Sharan N" class="profile-img">
+                </div>
+                <div class="profile-info">
+                    <h1>Sharan N</h1>
+                    <p class="subtitle">AI & ML Engineering Student</p>
+                    <div class="social-links">
+                        <a href="mailto:sharan7829152033@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://linkedin.com/in/sharan-n-" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/rioMajor" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <div class="location-display" title="Location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mandya, Karnataka</span>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <p>I am a 2025 graduate specializing in Artificial Intelligence & Machine Learning. Passionate about developing innovative solutions and implementing cutting-edge technologies.</p>
+                    </div>
+                    <div class="cv-download">
+                        <a href="Sharan_N_Resume.pdf" download class="download-btn">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Engineering in AI & ML</h3>
+                <p>BGS Institute of Technology, Mandya, India</p>
+                <p>CGPA: 8.0</p>
+                <p class="duration">Dec 2021 – May 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Real-time Inter-Conversion of Braille, Text, Audio</h3>
+                    <p class="project-status">Ongoing</p>
+                    <p>Building an Android app that can convert Braille, text, and speech in real time, enabling visually and verbally
+                    impaired individuals to communicate with each other.</p>
+                    <ul class="project-highlights">
+                        <li>Utilized Braille-to-text conversion technology with Python and TensorFlow</li>
+                        <li>Integrated WebSocket technology for real-time communication between clients and server</li>
+                        <li>Focused on accessibility and real-time performance</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>WebSocket</span>
+                        <span>Android</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>End-to-End CICD Implementation</h3>
+                    <p>Created a CI/CD pipeline using Jenkins for a Java-based application, integrating stages like unit testing, static code analysis, Docker image creation, and Kubernetes deployment using Argo CD.</p>
+                    <div class="tech-stack">
+                        <span>Jenkins</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>Argo CD</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/rioMajor/Ultimate-CI-CD-Implementation" target="_blank" class="github-btn">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Kubernetes End-to-End Deployment</h3>
+                    <p>Deployed a game application on EKS, using replicas for auto-healing and auto-scaling, configured an application load balancer, and exposed the app through an external IP.</p>
+                    <div class="tech-stack">
+                        <span>Kubernetes</span>
+                        <span>AWS EKS</span>
+                        <span>Load Balancer</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/rioMajor/End-to-End-Project-on-EKS" target="_blank" class="github-btn">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Cloud Cost Optimization</h3>
+                    <p>Used AWS Lambda to optimize EBS storage costs by identifying and deleting stale snapshots.</p>
+                    <div class="tech-stack">
+                        <span>AWS Lambda</span>
+                        <span>EBS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/rioMajor/aws-cloud-cost-optimisation" target="_blank" class="github-btn">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span><i class="fab fa-java"></i> Java</span>
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fas fa-code"></i> C</span>
+                        <span><i class="fab fa-html5"></i> HTML</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fas fa-terminal"></i> Bash</span>
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fas fa-database"></i> MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <span><i class="fab fa-docker"></i> Docker</span>
+                        <span><i class="fas fa-dharmachakra"></i> Kubernetes</span>
+                        <span><i class="fab fa-git-alt"></i> Git</span>
+                        <span><i class="fab fa-jenkins"></i> Jenkins</span>
+                        <span><i class="fas fa-cloud"></i> Terraform</span>
+                        <span><i class="fas fa-cogs"></i> Ansible</span>
+                        <span><i class="fab fa-linux"></i> Linux</span>
+                        <span><i class="fab fa-aws"></i> AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2>Achievements & Certifications</h2>
+            <div class="achievements-container">
+                <div class="achievement-item">
+                    <i class="fas fa-trophy"></i>
+                    <h3>1st Prize in Facial Emotion Detection</h3>
+                    <p>Jnana Vignana Tantragnana Mela (JVTM)</p>
+                </div>
+            </div>
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>The Complete Terraform with Ansible Bootcamp (Udemy, 2024)</li>
+                    <li>Linux System Administration (KodeKloud)</li>
+                    <li>Introduction to Programming Using Python (Kaggle)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-social-links">
+                        <a href="mailto:sharan7829152033@gmail.com" class="contact-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/sharan-n-" target="_blank" class="contact-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/rioMajor" target="_blank" class="contact-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <div class="location-info">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mandya, Karnataka</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sharan N. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin
+            emailjs.init("QeF7aW5xk6bmeXM4h"); // Replace with your EmailJS public key
+        })();
+    </script>
+</body>
+</html>
